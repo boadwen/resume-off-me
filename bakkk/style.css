@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.main-logo{font-size: 25px; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;}
+.sub-logo{text-align: center;}
+a{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+}
+.link-list{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.pro-pic{
+    
+    background-color: gray;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.after-header{
+    background-image: url("eagle.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.center{
+    
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body-text{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.success{
+    font-size: 120px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -15px;
+    color: rgb(116, 113, 113);
+}
+.sub-text{
+    margin-top: -70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.book{
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-color: none;
+    border-style: none;
+    padding: 7px;
+}
+.me{
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-me{
+    width: 450px;
+    height: 450px;
+}
+.image{
+  width: 450px;
+}
+.division{
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-image: url("bears.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.online{
+    padding: 5px;
+    border: 5px solid black;
+    width: 250px;
+    height: 430px;
+    text-align: center;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.footer{
+    background-color: rgb(56, 134, 134);
+    padding: 39px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact{
+    
+    text-align: center;
+    width: 500px;
+}
+.inputs{
+    width: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+input{
+    width: 400px;
+    height: 20px;
+    border: 3px solid black;
+    padding: 8px;
+    background-color: rgb(56, 134, 134);
+    color: black;
+}
